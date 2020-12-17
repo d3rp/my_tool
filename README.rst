@@ -27,6 +27,9 @@ To build this project, `install poetry <https://python-poetry.org/docs/#installa
         poetry install
         poetry run my_tool
 
+In detail
+---------------------------------
+
 The command **my_tool** is defined in **pyproject.toml** (note the "scripts" section). The cli object is wrapped when the file
 **the_tool.py** is imported in to **__init__.py** - or rather - to the module i.e. the main is refered to just as a placeholder.
 
