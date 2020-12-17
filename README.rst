@@ -23,10 +23,9 @@ In other words, the main is refered to just as placeholder:
         def main():
             pass
 
-To run this project, install poetry and run:
+To run this project, [install poetry](https://python-poetry.org/docs/#installation) and run:
 
 .. code-block::
 
-    pip install poetry
     poetry install
     poetry run my_tool
